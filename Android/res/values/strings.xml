@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TF2 Finance</string>
+    <string name="title_section1">Earbud Prices</string>
+    <string name="title_section2">Key Prices</string>
+    <string name="title_section3">Item Search</string>
+    <string name="loading_all">Loading &#8230;</string>
+    <string name="earbud_title">Current Earbud Prices</string>
+    <string name="key_title">Current Key Prices</string>
+    <string name="market_trends">Recent Market Trends</string>
+    <string name="purchase">Remove Ads</string>
+
+</resources>

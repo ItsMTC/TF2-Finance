@@ -1,0 +1,25 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--
+         A 'parent' preference, which enables/disables child preferences (below)
+         when checked/unchecked.
+    -->
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="premium_upgrade"
+        android:title="@string/pref_title_premium_upgrade" android:summary="@string/pref_title_premium_upgrade_desc"/>
+
+    <!-- NOTE: This preference will be enabled only when the checkbox above is checked. -->
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:dependency="premium_upgrade"
+        android:key="premium_remove_ads"
+        android:title="@string/pref_title_remove_ads" />
+    
+    <SwitchPreference
+        android:defaultValue="false"
+        android:dependency="premium_upgrade"
+        android:key="premium_status_bar"
+        android:title="@string/pref_title_status_bar" android:summary="@string/pref_title_status_bar_desc"/>
+
+</PreferenceScreen>

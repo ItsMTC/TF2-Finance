@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		112C8D9C19278A230033730D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 112C8D9A19278A230033730D /* InfoPlist.strings */; };
+		112C8D9E19278A230033730D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 112C8D9D19278A230033730D /* main.m */; };
+		112C8DA219278A230033730D /* TTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 112C8DA119278A230033730D /* TTAppDelegate.m */; };
+		112C8DA519278A230033730D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112C8DA319278A230033730D /* Main_iPhone.storyboard */; };
+		112C8DA819278A230033730D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112C8DA619278A230033730D /* Main_iPad.storyboard */; };
+		112C8DAB19278A230033730D /* TTFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112C8DAA19278A230033730D /* TTFirstViewController.m */; };
+		112C8DAE19278A230033730D /* TTSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112C8DAD19278A230033730D /* TTSecondViewController.m */; };
+		112C8DB019278A230033730D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112C8DAF19278A230033730D /* Images.xcassets */; };
+		112C8DCD1927934F0033730D /* TF2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 112C8DCC1927934F0033730D /* TF2.ttf */; };
+		1AB887F7393AA20043B0D42F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8840C62D12C5C4A05617F4FE /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		112C8D8E19278A230033730D /* TF2 Finance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TF2 Finance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		112C8D9119278A230033730D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		112C8D9319278A230033730D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		112C8D9519278A230033730D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		112C8D9919278A230033730D /* TF2 Finance-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TF2 Finance-Info.plist"; sourceTree = "<group>"; };
+		112C8D9B19278A230033730D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		112C8D9D19278A230033730D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		112C8D9F19278A230033730D /* TF2 Finance-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TF2 Finance-Prefix.pch"; sourceTree = "<group>"; };
+		112C8DA019278A230033730D /* TTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTAppDelegate.h; sourceTree = "<group>"; };
+		112C8DA119278A230033730D /* TTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTAppDelegate.m; sourceTree = "<group>"; };
+		112C8DA419278A230033730D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		112C8DA719278A230033730D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		112C8DA919278A230033730D /* TTFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTFirstViewController.h; sourceTree = "<group>"; };
+		112C8DAA19278A230033730D /* TTFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTFirstViewController.m; sourceTree = "<group>"; };
+		112C8DAC19278A230033730D /* TTSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTSecondViewController.h; sourceTree = "<group>"; };
+		112C8DAD19278A230033730D /* TTSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTSecondViewController.m; sourceTree = "<group>"; };
+		112C8DAF19278A230033730D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		112C8DBE19278A230033730D /* TF2 FinanceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TF2 FinanceTests-Info.plist"; sourceTree = "<group>"; };
+		112C8DC019278A230033730D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		112C8DC219278A230033730D /* TF2_FinanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TF2_FinanceTests.m; sourceTree = "<group>"; };
+		112C8DCC1927934F0033730D /* TF2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = TF2.ttf; path = "TF2 Finance/TF2.ttf"; sourceTree = SOURCE_ROOT; };
+		112C8DE0192810050033730D /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		112C8DE2192810180033730D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		112C8DE41928102A0033730D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		112C8DE61928103D0033730D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		112C8DE8192810470033730D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		112C8DEA192810560033730D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		112C8E0A192990FA0033730D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8840C62D12C5C4A05617F4FE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E6BF4D5CA02188D6C0B0003 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DFBBA6DD9504D96A21EF921F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		112C8D8B19278A230033730D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB887F7393AA20043B0D42F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		112C8D8519278A230033730D = {
+			isa = PBXGroup;
+			children = (
+				112C8D9719278A230033730D /* TF2 Finance */,
+				112C8DBC19278A230033730D /* TF2 FinanceTests */,
+				112C8D9019278A230033730D /* Frameworks */,
+				112C8D8F19278A230033730D /* Products */,
+				88AE97E42E06CAA544DADDF9 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		112C8D8F19278A230033730D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				112C8D8E19278A230033730D /* TF2 Finance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		112C8D9019278A230033730D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				112C8E0A192990FA0033730D /* MobileCoreServices.framework */,
+				112C8DEA192810560033730D /* SystemConfiguration.framework */,
+				112C8DE8192810470033730D /* MessageUI.framework */,
+				112C8DE61928103D0033730D /* CoreTelephony.framework */,
+				112C8DE41928102A0033730D /* AVFoundation.framework */,
+				112C8DE2192810180033730D /* AudioToolbox.framework */,
+				112C8DE0192810050033730D /* AdSupport.framework */,
+				112C8D9119278A230033730D /* Foundation.framework */,
+				112C8D9319278A230033730D /* CoreGraphics.framework */,
+				112C8D9519278A230033730D /* UIKit.framework */,
+				8840C62D12C5C4A05617F4FE /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		112C8D9719278A230033730D /* TF2 Finance */ = {
+			isa = PBXGroup;
+			children = (
+				112C8DA019278A230033730D /* TTAppDelegate.h */,
+				112C8DA119278A230033730D /* TTAppDelegate.m */,
+				112C8DA319278A230033730D /* Main_iPhone.storyboard */,
+				112C8DA619278A230033730D /* Main_iPad.storyboard */,
+				112C8DA919278A230033730D /* TTFirstViewController.h */,
+				112C8DAA19278A230033730D /* TTFirstViewController.m */,
+				112C8DAC19278A230033730D /* TTSecondViewController.h */,
+				112C8DAD19278A230033730D /* TTSecondViewController.m */,
+				112C8DAF19278A230033730D /* Images.xcassets */,
+				112C8D9819278A230033730D /* Supporting Files */,
+			);
+			path = "TF2 Finance";
+			sourceTree = "<group>";
+		};
+		112C8D9819278A230033730D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				112C8DCC1927934F0033730D /* TF2.ttf */,
+				112C8D9919278A230033730D /* TF2 Finance-Info.plist */,
+				112C8D9A19278A230033730D /* InfoPlist.strings */,
+				112C8D9D19278A230033730D /* main.m */,
+				112C8D9F19278A230033730D /* TF2 Finance-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		112C8DBC19278A230033730D /* TF2 FinanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				112C8DC219278A230033730D /* TF2_FinanceTests.m */,
+				112C8DBD19278A230033730D /* Supporting Files */,
+			);
+			path = "TF2 FinanceTests";
+			sourceTree = "<group>";
+		};
+		112C8DBD19278A230033730D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				112C8DBE19278A230033730D /* TF2 FinanceTests-Info.plist */,
+				112C8DBF19278A230033730D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88AE97E42E06CAA544DADDF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFBBA6DD9504D96A21EF921F /* Pods.debug.xcconfig */,
+				8E6BF4D5CA02188D6C0B0003 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		112C8D8D19278A230033730D /* TF2 Finance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 112C8DC619278A230033730D /* Build configuration list for PBXNativeTarget "TF2 Finance" */;
+			buildPhases = (
+				42731FB6EDCB89C94AD0A366 /* Check Pods Manifest.lock */,
+				112C8D8A19278A230033730D /* Sources */,
+				112C8D8B19278A230033730D /* Frameworks */,
+				112C8D8C19278A230033730D /* Resources */,
+				751E8A07031E69475F746F68 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TF2 Finance";
+			productName = "TF2 Finance";
+			productReference = 112C8D8E19278A230033730D /* TF2 Finance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		112C8D8619278A230033730D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Treehouse Technologies";
+				TargetAttributes = {
+					112C8D8D19278A230033730D = {
+						DevelopmentTeam = VAF9A2BWFV;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 112C8D8919278A230033730D /* Build configuration list for PBXProject "TF2 Finance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 112C8D8519278A230033730D;
+			productRefGroup = 112C8D8F19278A230033730D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				112C8D8D19278A230033730D /* TF2 Finance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		112C8D8C19278A230033730D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112C8DA819278A230033730D /* Main_iPad.storyboard in Resources */,
+				112C8DB019278A230033730D /* Images.xcassets in Resources */,
+				112C8DA519278A230033730D /* Main_iPhone.storyboard in Resources */,
+				112C8DCD1927934F0033730D /* TF2.ttf in Resources */,
+				112C8D9C19278A230033730D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42731FB6EDCB89C94AD0A366 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		751E8A07031E69475F746F68 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		112C8D8A19278A230033730D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112C8DA219278A230033730D /* TTAppDelegate.m in Sources */,
+				112C8D9E19278A230033730D /* main.m in Sources */,
+				112C8DAE19278A230033730D /* TTSecondViewController.m in Sources */,
+				112C8DAB19278A230033730D /* TTFirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		112C8D9A19278A230033730D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				112C8D9B19278A230033730D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		112C8DA319278A230033730D /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				112C8DA419278A230033730D /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		112C8DA619278A230033730D /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				112C8DA719278A230033730D /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		112C8DBF19278A230033730D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				112C8DC019278A230033730D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		112C8DC419278A230033730D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		112C8DC519278A230033730D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		112C8DC719278A230033730D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFBBA6DD9504D96A21EF921F /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TF2 Finance/TF2 Finance-Prefix.pch";
+				INFOPLIST_FILE = "TF2 Finance/TF2 Finance-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		112C8DC819278A230033730D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E6BF4D5CA02188D6C0B0003 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TF2 Finance/TF2 Finance-Prefix.pch";
+				INFOPLIST_FILE = "TF2 Finance/TF2 Finance-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		112C8D8919278A230033730D /* Build configuration list for PBXProject "TF2 Finance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112C8DC419278A230033730D /* Debug */,
+				112C8DC519278A230033730D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		112C8DC619278A230033730D /* Build configuration list for PBXNativeTarget "TF2 Finance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112C8DC719278A230033730D /* Debug */,
+				112C8DC819278A230033730D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 112C8D8619278A230033730D /* Project object */;
+}
